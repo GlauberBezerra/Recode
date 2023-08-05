@@ -1,0 +1,495 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+
+
+
+}
+
+.carrocel {
+
+  height: 50%;
+  justify-content: space-around;
+  display: flex;
+
+}
+
+.main-index {
+  background-image: url('belas-praias-br.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+.natureza {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  font-size: large;
+  padding: 10px 0px 25px 0px;
+
+}
+
+.menu {
+  justify-content: space-around;
+  gap: 40px;
+
+
+}
+
+.div-pesquisa {
+  justify-content: space-around;
+  display: flex;
+  margin-top: 10px;
+  width: 70%;
+
+
+}
+
+.section-pesquisa {
+  background-color: white;
+  width: 50%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+
+}
+
+.disponibilidade {
+  background-color: #166dec;
+  padding: 10px;
+  margin-right: 15px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+
+
+}
+
+.texto-pesquisa {
+  font-weight: bold;
+
+}
+
+.texto-pesquisa-menor {
+
+  color: gray;
+
+}
+@media(max-width:700px){
+.div-pesquisa,.section-pesquisa{
+flex-direction: column ;
+height: 250px;
+justify-content: center;
+
+}
+.disponibilidade{
+margin: 0;
+margin-bottom: 10px;
+
+}
+.div-card{
+
+margin-left: 70px;
+
+}
+.card{
+margin-top: 30px;
+}
+
+.main-index{
+height: 100%;
+padding-bottom: 30px;
+
+
+}
+
+
+
+
+
+}
+
+.nav-link {
+  font-weight: bold !important;
+
+}
+
+
+
+
+.main-destino {
+  background-image: url('ilha-paradisiaca-bonita-com-praia-e-mar.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  background-position: center;
+
+}
+
+.main-contatos {
+
+  background-image: url('iStock-1187043777-1140x694.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  background-position: center;
+
+}
+
+.main-promocoes {
+  background-image: url('coliseu.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  background-position: center;
+  padding-bottom: 50px;
+
+}
+
+.div-destino {
+
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-top: 50px;
+  width: 90%;
+  background-color: rgba(0, 0, 0, 0.322);
+  border-radius: 20px;
+
+}
+
+
+.img-esquerda {
+  border-radius: 10px;
+  width: 30%;
+  height: 95%;
+  background-image: url(foto1.webp);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.div-meio {
+
+  width: 30%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.img-meio {
+  border-radius: 10px;
+  width: 95%;
+  height: 45%;
+  background-image: url(foto2.jpg);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.img-meio-baixo {
+  width: 100%;
+  height: 46%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+
+}
+
+
+.img-meio-esquerda {
+  border-radius: 10px;
+  width: 47%;
+  height: 100%;
+  background-image: url(foto3.webp);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.img-meio-direito {
+  border-radius: 10px;
+  width: 47%;
+  height: 100%;
+  background-image: url(foto4.jpg);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.div-direita {
+
+  height: 95%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+
+}
+
+.img-direita-cima {
+  border-radius: 10px;
+  width: 95%;
+  height: 45%;
+  background-image: url(foto5.webp);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.img-direita-baixo {
+  border-radius: 10px;
+  width: 95%;
+  height: 45%;
+  background-image: url(foto6.jpg);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.div-conteudo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+
+}
+
+.div-texto {
+  margin-left: 10px;
+  color: white;
+
+
+
+
+
+}
+
+
+.botao-destino {
+  background-color: #166dec;
+  padding: 10px;
+  margin-left: 5px;
+  margin-top: 5px;
+  width: 45px;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+
+
+
+}
+
+@media(max-width:700px) {
+  .main-destino {
+
+    height: 100%;
+
+
+
+  }
+
+  .div-destino {
+    flex-direction: column;
+    height: 100%;
+    gap: 20px;
+
+
+
+  }
+
+  .img-esquerda,
+  .img-meio-esquerda,
+  .img-meio-direito,
+  .img-direita-baixo,
+  .img-direita-cima,
+  .img-meio {
+    width: 90%;
+
+
+  }
+
+  .div-direita {
+    width: 100%;
+    gap: 20px;
+
+
+  }
+
+  .div-meio {
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+
+  }
+
+  .img-meio-baixo {
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+    
+  }
+
+}
+
+.navbar {
+
+  background-color: rgba(240, 248, 255, 0.6) !important;
+
+
+}
+
+.div-contato {
+
+  width: 70%;
+  margin: auto;
+  justify-content: space-around;
+
+  margin-top: 100px;
+
+}
+
+
+.contato-texto {
+
+  width: 40%;
+  font-size: xx-large;
+  font-weight: bold;
+
+
+}
+
+.form-contato {
+
+  align-items: center;
+
+
+
+}
+@media(max-width:700px){
+.div-contato{
+width: 100%;
+flex-direction: column;
+
+}
+.main-contatos{
+padding-bottom: 110px ;
+height: 100%;
+
+}
+
+
+.contato-texto{
+width: 100%;
+
+
+}
+
+
+
+}
+
+
+.quadradao {
+  border: 3px solid rgba(255, 166, 0, 0.959);
+  height: 230px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.318);
+  border-radius: 20px;
+  margin-top: 30px;
+
+
+}
+
+
+.texto-quadrado {
+  font-size: 17px;
+  width: 70%;
+  height: 70%;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+.aviao {
+
+  padding-bottom: 3px;
+  background-color: rgba(241, 202, 117, 0.623);
+
+
+
+}
+
+
+.preco-quadrado {
+  font-size: 17px;
+  width: 70%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 0px;
+
+}
+
+.div-cima {
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  width: 100%;
+
+}
+
+.div-baixo {
+  justify-content: flex-end;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  width: 100%;
+
+}
+
+.div-quadrado {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  color: rgb(218, 216, 216);
+
+
+
+}
